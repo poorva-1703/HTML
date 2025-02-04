@@ -1,0 +1,43 @@
+
+/* *{
+    color: white;
+   background-color: burlywood;
+} */
+
+/* h1{
+    color: red;
+    background-color: blue;
+} */
+
+/* .first{
+    color: pink;
+    background-color: yellowgreen;
+}
+
+.sec{
+    color: yellow;
+    background-color: blue;
+} */
+
+/* #mydiv{
+    color: purple;
+    background-color: moccasin;
+} */
+
+/* input[type="text"]{         <!-- input[type="text"] for particular input -->
+    width: 500px;
+    height: 30px;
+} */
+
+/* input{                    <!-- input for all input fields -->
+    width: 170px;
+    height: 10px;
+} */
+
+/* span,b{
+    background-color: yellow;
+} */
+
+div h4{
+    color: red;
+}

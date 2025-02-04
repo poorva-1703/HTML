@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <form action="">
+
+        <fieldset>
+<legend>User Credentials</legend>
+
+            <label for="username">Username</label> &nbsp;
+            <input type="text" name="username">
+    <br><br>
+            <label for="password">Password</label>
+            <input type="text" name="password">
+  <br><br>
+            <select name="role" id="">
+            <option value="">Select Role</option>
+                <option value="Admin">Admin</option>
+                <option value="user">User</option>
+            </select>
+
+            <br><br>
+
+            <select name="subject" id="">
+            
+                <option value="">Select Subject</option>
+
+                <optgroup label="Sem 1">
+                <option value= "sub 1">Sub 1 </option>
+                <option value= "sub 2">Sub 2 </option>
+            </optgroup>
+
+            <optgroup label="Sem 2">
+                <option value= "sub 5">Sub 5 </option>
+                <option value= "sub 6">Sub 6 </option>
+            </optgroup>
+          
+        </select>
+<br><br>
+
+<input type="text" name="data" list="ice cream flavours">
+
+<datalist id="ice cream flavours">
+    <option value="Chocolate"></option>
+  <option value="Coconut"></option>
+  <option value="Mint"></option>
+  <option value="Strawberry"></option>
+  <option value="Vanilla"></option>
+
+</datalist>
+
+
+</fieldset>
+      
+    </form>
+</body>
+</html>
