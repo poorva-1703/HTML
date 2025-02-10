@@ -1,0 +1,45 @@
+.first-div {
+    margin-top: 50px;               /* margin outside the body/border */
+    width: 50%;
+    height: 80px;
+    border: 1px solid green;
+}
+
+.second-div {
+    margin-top: 30px ;
+    width: 50%;
+    height: 100px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+
+h1 {
+    border: 1px solid black;
+   margin: 80px 100px;            /* top and right body/margin */                  
+   color: blue;
+   padding-left: 50px;
+   
+}
+
+
+h2 {
+    border: 1px solid black;
+    margin: 35px 25px;
+    color: red;
+    padding-left: 100px;          /* padding inside the border */
+}
+
+button {
+    font-size: larger;
+    margin: 20px 50px;
+    padding: 20px 30px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
